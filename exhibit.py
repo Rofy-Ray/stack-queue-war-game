@@ -214,7 +214,7 @@ class Display:
         turt.penup()
         turt.setpos(x, y)                               # start position for the animation
         turt.pendown()
-        for p in range(4):                              # draws the card 4 times
+        for p in range(4):                              # draws the card 4 times to show movement
             turt.clear()
             turt.penup()
             turt.setpos(x, y)
